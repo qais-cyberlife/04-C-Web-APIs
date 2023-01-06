@@ -22,33 +22,33 @@ var questions = [
 ];
 
 const buttonList = [  
-    { id: 1, label: 'Button 1' },  
-    { id: 2, label: 'Button 2' },  
-    { id: 3, label: 'Button 3' },  
-    { id: 4, label: 'Button 4' }, 
+    { id: 1, label: '1. Strings' },  
+    { id: 2, label: '2. Booleans' },  
+    { id: 3, label: '3. Alerts' },  
+    { id: 4, label: '4. Numbers' }, 
 ];
 
 const choices1 = [  
-    { id: 1, label: 'Button 1' },  
-    { id: 2, label: 'Button 2' },  
-    { id: 3, label: 'Button 3' },  
-    { id: 4, label: 'Button 4' }, 
+    { id: 1, label: '1. Quotes' },  
+    { id: 2, label: '2. Curly Brackets' },  
+    { id: 3, label: '3. Parantheses' },  
+    { id: 4, label: '4. Square Brackets' }, 
 ];
 
 
 const choices2 = [  
-    { id: 1, label: 'Button 1' },  
-    { id: 2, label: 'Button 2' },  
-    { id: 3, label: 'Button 3' },  
-    { id: 4, label: 'Button 4' }, 
+    { id: 1, label: '1. Numbers and Strings' },  
+    { id: 2, label: '2. Other Arrays' },  
+    { id: 3, label: '3. Booleans' },  
+    { id: 4, label: '4. All of the Above' }, 
 ];
 
 
 const choices3 = [  
-    { id: 1, label: 'Button 1' },  
-    { id: 2, label: 'Button 2' },  
-    { id: 3, label: 'Button 3' },  
-    { id: 4, label: 'Button 4' }, 
+    { id: 1, label: '1. Commas' },  
+    { id: 2, label: '2. Curly Bracket' },  
+    { id: 3, label: '3. Quotes' },  
+    { id: 4, label: '4. Parentheses' }, 
 ];
 
 
@@ -61,17 +61,17 @@ const choices4 = [
 
 
 const choices5 = [  
-    { id: 1, label: 'Button 1' },  
-    { id: 2, label: 'Button 2' },  
-    { id: 3, label: 'Button 3' },  
-    { id: 4, label: 'Button 4' }, 
+    { id: 1, label: '1. JavaScript' },  
+    { id: 2, label: '2. Terminal/ Bash' },  
+    { id: 3, label: '3. For Loops' },  
+    { id: 4, label: '4. console.log' }, 
 ];
-
 
 
 title.remove();
 description.remove();
 startButton.remove();
+
 
 const buttonContainer = document.querySelector('.choices');
 

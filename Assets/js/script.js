@@ -89,7 +89,7 @@ function firstQuestion() {
         description.remove();
         startButton.remove();  
     }
-   
+    x++
     question.textContent = questions[x].label
     for (let i = 0; i < allChoices[x].length; i++) {
         const button = document.createElement('button');
@@ -108,7 +108,7 @@ function firstQuestion() {
         secondsLeft = secondsLeft - 10
     }
     choices.innerHTML = "";
-    x++
+    
     firstQuestion();
 });
 }

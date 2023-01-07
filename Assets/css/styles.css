@@ -47,6 +47,14 @@
     transition-timing-function: linear;
     margin-top: 0.6em;
   }
+
+  li{
+    list-style-type: none;
+  }
+
+  ol {
+    list-style-type: none;
+  }
   
   .quiz{
     text-align: center;
